@@ -12,7 +12,7 @@ def render_page1():
     return render_template('page1.html')
 @app.route("/response1")
 def render_response1():
-    agegroup = float(request.args['26+'])
+    agegroup = float(request.args['agegroup'])
     response= "hi"
     return render_template('response.html', response = response)
    
