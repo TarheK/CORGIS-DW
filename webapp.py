@@ -9,7 +9,7 @@ def render_home():
 
 @app.route("/page1")
 def render_page1():
-    return render_template('page1.html')v
+    return render_template('page1.html')
 @app.route("/response1")
 def render_response1():
     age group = float(request.args['26+'])
