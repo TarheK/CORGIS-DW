@@ -13,7 +13,7 @@ def render_page1():
 @app.route("/response1")
 def render_response1():
     agegroup = request.args['agegroup']
-    response= "hi"
+    response= "In 2016 9.2 percent or 2.3 million kids age 12-17 currently used alchohol, 57.1 percent or 19.8 million adults age 18-25 currently used alchohol, and 54.6 percent or 114.7 million adults age 26 and older currently used alchohol"
     return render_template('response.html', response = response)
    
 if __name__=="__main__":
