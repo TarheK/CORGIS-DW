@@ -13,7 +13,7 @@ def render_page1():
 @app.route("/response1")
 def render_response1():
     agegroup = request.args['agegroup']
-    response= "In 2016 9.2 percent or 2.3 million kids age 12-17 currently used alchohol, 57.1 percent or 19.8 million adults age 18-25 currently used alchohol, and 54.6 percent or 114.7 million adults age 26 and older currently used alchohol"
+    response= "In 2016 9.2 percent or 2.3 million kids age 12-17 currently used alchohol, 57.1 percent or 19.8 million adults age 18-25 currently used alchohol, and 54.6 percent or 114.7 million adults age 26 and older currently used alchohol. An estimation of how many people age 12 or older were binge alchohol drinkers in the past 30 days in 2016 was 65.3 million people which is about 24.2 percent. Aproximately 4.9 percent of kids 2-17, 38.4 percent of adults age 18-25, and 24.2 percent of adults of 26 and older are current binge drinkers."
     return render_template('response.html', response = response)
    
 if __name__=="__main__":
