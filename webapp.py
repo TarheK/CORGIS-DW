@@ -14,11 +14,11 @@ def render_page1():
 def render_response1():
     agegroup = request.args['agegroup']
     response= 
-            <ul>
-              <li>Coffee</li>
-              <li>Tea</li>
-              <li>Milk</li>
-            </ul> 
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul> 
     return render_template('response.html', response = response)
    
 if __name__=="__main__":
