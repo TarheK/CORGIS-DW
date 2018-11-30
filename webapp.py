@@ -9,8 +9,8 @@ def render_home():
 
 @app.route("/page1")
 def render_page1():
-    with open('county_demographics.json') as demographics_data:
-        counties = json.load(demographics_data)
+    with open('drugs json.json') as demographics_data:
+        data = json.load(drugs_data)
     return render_template('page1.html')
 @app.route("/response1")
 def render_response1():
