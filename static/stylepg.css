@@ -1,4 +1,13 @@
-body{
-	background-color: rbg(55,91,230);
+body {
+  background-color: rgb(205,184,216);
+  
+  color: rgb(45,8,63);
 }
+
+h1 {
+  color: rgb(87,0,127);
+  margin-left: 20px;
+}
+
+	
 	
