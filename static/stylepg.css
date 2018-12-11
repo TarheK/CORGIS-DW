@@ -1,13 +1,16 @@
 body {
-  background-color: rgb(205,184,216);
-  
-  color: rgb(45,8,63);
+  background-image: url("/static/bbb.jpg");
+  font-style: oblique;
+  margin-left: 0px;
+  color: rgb(255,255,255);
 }
 
 h1 {
-  color: rgb(87,0,127);
-  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255,255,255);
+  margin-left: 400px;
 }
-
+/*background-color: rgb(205,184,216);
+  /*
 	
 	
