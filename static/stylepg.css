@@ -1,45 +1,53 @@
 body {
+   background-color: rgb(149, 184, 209);
   display: inline-block;
   border: 10px solid rgb(0, 51, 102);
-  background-color: rgb(149, 184, 209);
   font-style: oblique;
   margin-left: 0px;
   color: rgb(0, 51, 102);
 }
 
 h1 {
-  border: 5px solid rgb(251, 190, 224);
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  border: 15px solid rgb(39, 17, 99);
   font-family: "Times New Roman", Times, serif;
   display: inline-block;
   color: rgb(255, 255, 255);
   margin-left: 700px;
+  text-shadow: 3px 2px blue;
+  background: gray;
 }
 
 h5 {
-  color: rgb(66, 0, 57);
+  color: rgb(124, 13, 23);
   display: inline-block;
   margin-left: 700px;
 }
   
 h6 {
-  color: rgb(66, 0, 57);
+  color: rgb(124, 13, 23);
   display: inline-block;
   margin-left: 700px;
 }
+
   
 h2 {
-  border: 5px dotted rgb(184, 334, 210);
+  border-style: double;
+  border-width: 15px;
   font-family: "Times New Roman", Times, serif;
   display: inline-block;
   color: rgb(255,255,255);
-  margin-left: 100px;
+  margin-left: 35px;
 }
 p {
-  border: 5px dashed rgb(251, 190, 224);
+  letter-spacing: 3px;
   font-family: "Times New Roman", Times, serif;
   display: inline-block;
-  color: rgb(0, 51, 102);
-  margin-left: 10px;
+  color: rgb(124, 23, 23);
+  margin-left: 35PX;
 }
 h3 {
   font-family: "Times New Roman", Times, serif;
@@ -47,8 +55,16 @@ h3 {
   color: rgb(255, 255, 255);
   margin-left: 700px;
 }
+img {
+	border: 5px solid rgb(124, 23, 23);
+}
+
 /*background-color: rgb(205,184,216);
   /*
   /*background-color: rgb(106,90,205);/*
+  
+  /*border: 5px dashed rgb(63, 119, 168);/*
+  /*border: 5px double rgb(40, 37, 43);/*
+  /*background-color: rgb(149, 184, 209);/*
 	
 	
